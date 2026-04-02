@@ -21,14 +21,19 @@ document.addEventListener("DOMContentLoaded", () => {
           caption: "先頭の第1課の内容が選択されています。学びたい課を選択できます。中国語の文章をクリックすると中国語の音色が流れます。",
         },
         {
-          src: "images/会話音声入力.jpg",
+          src: "images/音声入力評価.jpg",
           caption:
-            "PRACTICEボタンをクリックすると音声入力モードになります。例文を音声入力するとあなたの発音を評価してくれます。上部の音声入力練習記録をコピー　ボタンをキリックするとクリップボードに練習記録をコピーできます。",
+            "PRACTICEボタンをクリックすると音声入力モードになります。例文を音声入力するとあなたの発音を評価してくれます。",
         },
         {
-          src: "images/会話動画.jpg",
+          src: "images/音声入力練習記録コピー.jpg",
           caption:
-            "上部の動画を見るボタンをクリックするとリアルな会話動画が再生されます。字幕付きなので、視覚的にも内容を理解できます。",
+            "上部の音声入力練習記録をコピー　ボタンをキリックするとクリップボードに練習記録をコピーできます。",
+        },
+        {
+          src: "images/会話画像表示.jpg",
+          caption:
+            "上部の画像を見るボタンをクリックすると、このレッスンで学ぶ要点がわかりやすいイメージ図で示されます。",
         },
         
         // { src: "images/app1_screen3.png", caption: "テスト結果：間違えた単語を復習できます。" }
@@ -97,21 +102,18 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         id: "conversation-practice", // 例: アプリ4のID
         name: "App④置き換え練習",
-        description: "各々の学習ポイントの説明と、その例文で構成されます。",
+        description: "文法のパターン別に単語を入れ替えて練習するアプリです。。",
         images: [
-            { src: "images/ポイント初期画面.jpg",
-              caption: "アプリの初期画面です。先頭の課の学習ポイントが一覧形式で表示されます。"
+            { src: "images/スロットトーク初期画面.jpg",
+              caption: "アプリの初期画面です。"
             },
-            { src: "images/ポイントお気に入り追加.jpg",
-              caption: "一覧形式で表示された学習ポイントをタップすると、その学習ポイントの例文が表示されます。☆マークをクリックすればMy勉強帳に登録できます。"
+            { src: "images/スロットトーク頻度選択.jpg",
+              caption: "頻度を選択できます。"
             },
-            { src: "images/ポイント勉強一覧.jpg",
-              caption: "上部にあるMy帳（勉強ツール）をクリックすれば、登録されている勉強帳が表示されます。フラッシュカード形式と、一覧形式で表示できます。"
+            { src: "images/スロットトークカテゴリー選択.jpg",
+              caption: "カテゴリーを選択できます。"
             },
-            { src: "images/ポイント勉強カード.jpg",
-              caption: "フラッシュカードをタップしたときの表示例です。カードの表を中国語にするか、日本語にするかの選択ができます。"
-            },
-           
+            
         ],
         appUrl: "https://script.google.com/macros/s/AKfycbyX4CrVdxgkCVHVEde3UQcCDsBHm5peVgzzlmYxo2P7W74hH-c9OPDB89oEK_ownWg/exec" // あなたのアプリ4への実際のURLに置き換えてください
     }
